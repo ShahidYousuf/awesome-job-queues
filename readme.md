@@ -7,6 +7,7 @@
 - [Libraries](#libraries)
 	- [Python](#python)
 	- [Ruby](#ruby)
+	- [JavaScript and TypeScript](#javascript-and-typescript)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
 - [Database-backed queues](#database-backed-queues)
@@ -35,6 +36,14 @@
 - [Sidekiq](https://github.com/sidekiq/sidekiq) - Background job processor that runs many jobs concurrently in threads, backed by Redis, Valkey or Dragonfly.
 - [Solid Queue](https://github.com/rails/solid_queue) - Database-backed Active Job backend for MySQL, PostgreSQL and SQLite that uses `FOR UPDATE SKIP LOCKED` where available.
 - [Sucker Punch](https://github.com/brandonhilkert/sucker_punch) - Asynchronous job library that runs its queues inside the application process using concurrent-ruby.
+
+### JavaScript and TypeScript
+
+- [Agenda](https://github.com/agenda/agenda) - Job scheduling library for Node.js that stores jobs in MongoDB by default through a pluggable backend.
+- [BullMQ](https://github.com/taskforcesh/bullmq) - Redis-based distributed queue for Node.js with an optional PostgreSQL backend and clients for Python, Elixir, .NET, Rust and PHP.
+- [Graphile Worker](https://github.com/graphile/worker) - Job queue for PostgreSQL running on Node.js that can also take jobs created by PostgreSQL triggers and functions.
+- [node-resque](https://github.com/actionhero/node-resque) - Redis-backed background jobs for Node.js with an API compatible with Resque.
+- [pg-boss](https://github.com/timgit/pg-boss) - Job queue for Node.js that stores jobs in PostgreSQL and claims them with `SKIP LOCKED`, with cron scheduling.
 
 ## Framework integrations
 
