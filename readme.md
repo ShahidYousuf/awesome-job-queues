@@ -16,6 +16,7 @@
 	- [Rust](#rust)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
+- [Job servers](#job-servers)
 - [Database-backed queues](#database-backed-queues)
 
 ## Libraries
@@ -92,6 +93,11 @@
 - [django-rq](https://github.com/rq/django-rq) - Django integration for RQ that configures queues in Django settings.
 - [django-tasks](https://github.com/RealOrangeOne/django-tasks) - Backport of Django's built-in Tasks framework.
 - [django-tasks-db](https://github.com/RealOrangeOne/django-tasks-db) - Backend for Django's Tasks framework that stores tasks with the Django ORM and runs them with a `db_worker` command.
+
+## Job servers
+
+- [Faktory](https://github.com/contribsys/faktory) - Language-agnostic job server that holds jobs in queues for workers in any language to fetch through its API.
+- [Gearman](https://github.com/gearman/gearmand) - Job server that farms out work to other machines or processes and can call functions across languages.
 
 ## Database-backed queues
 
