@@ -20,6 +20,7 @@
 - [Workflow and durable execution](#workflow-and-durable-execution)
 - [Database-backed queues](#database-backed-queues)
 - [Brokers](#brokers)
+- [Managed services](#managed-services)
 
 ## Libraries
 
@@ -125,6 +126,16 @@
 - [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) - Multi-protocol messaging and streaming broker that supports AMQP 1.0, AMQP 0-9-1, MQTT and STOMP.
 - [Redis](https://github.com/redis/redis) - In-memory data structure server with lists and streams that many job queue libraries use for storage.
 - [Valkey](https://github.com/valkey-io/valkey) - Key-value data structure server forked from Redis before Redis moved to source-available licenses.
+
+## Managed services
+
+- [Amazon SQS](https://aws.amazon.com/sqs/) - Managed message queue service from AWS with standard and FIFO queues.
+- [Azure Queue Storage](https://learn.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction) - Azure service for storing large numbers of messages in queues inside a storage account.
+- [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) - Managed message broker on Azure with queues and publish-subscribe topics.
+- [Cloudflare Queues](https://developers.cloudflare.com/queues/) - Message queues with guaranteed delivery, integrated with Cloudflare Workers.
+- [Google Cloud Tasks](https://cloud.google.com/tasks/docs/dual-overview) - Managed service that dispatches and delivers large numbers of distributed tasks, including as HTTP requests to a target.
+- [Supabase Queues](https://supabase.com/docs/guides/queues) - PostgreSQL-native message queues with guaranteed delivery on Supabase, built on PGMQ.
+- [Upstash QStash](https://upstash.com/docs/qstash/overall/getstarted) - Serverless messaging and scheduling service that delivers messages to public HTTP endpoints.
 
 ## Contributing
 
