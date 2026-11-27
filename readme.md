@@ -143,7 +143,7 @@
 - [Azure Queue Storage](https://learn.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction) - Azure service for storing large numbers of messages in queues inside a storage account.
 - [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) - Managed message broker on Azure with queues and publish-subscribe topics.
 - [Cloudflare Queues](https://developers.cloudflare.com/queues/) - Message queues with guaranteed delivery, integrated with Cloudflare Workers.
-- [Google Cloud Tasks](https://cloud.google.com/tasks/docs/dual-overview) - Managed service that dispatches and delivers large numbers of distributed tasks, including as HTTP requests to a target.
+- [Google Cloud Tasks](https://docs.cloud.google.com/tasks/docs/dual-overview) - Managed service that dispatches and delivers large numbers of distributed tasks, including as HTTP requests to a target.
 - [Supabase Queues](https://supabase.com/docs/guides/queues) - PostgreSQL-native message queues with guaranteed delivery on Supabase, built on PGMQ.
 - [Upstash QStash](https://upstash.com/docs/qstash/overall/getstarted) - Serverless messaging and scheduling service that delivers messages to public HTTP endpoints.
 
@@ -189,7 +189,7 @@
 - [Introducing Solid Queue](https://dev.37signals.com/introducing-solid-queue/) - Rosa Gutiérrez on the database-backed Active Job backend that 37signals runs in HEY.
 - [Kafka is fast -- I'll use Postgres](https://topicpartition.io/blog/postgres-pubsub-queue-benchmarks) - Stanislav Kozlovski benchmarks PostgreSQL as a pub-sub system and as a queue.
 - [Postgres Job Queues & Failure By MVCC](https://brandur.org/postgres-queues) - Brandur Leach shows how a long-lived transaction leaves dead tuples that slow down job locking.
-- [Postgres LISTEN/NOTIFY does not scale](https://recall.ai/blog/postgres-listen-notify-does-not-scale) - Recall.ai on how `NOTIFY` took a global lock at commit that serialized all commits. The article's 2026 update reports the bottleneck fixed in PostgreSQL core.
+- [Postgres LISTEN/NOTIFY does not scale](https://www.recall.ai/blog/postgres-listen-notify-does-not-scale) - Recall.ai on how `NOTIFY` took a global lock at commit that serialized all commits. The article's 2026 update reports the bottleneck fixed in PostgreSQL core.
 - [The Database As Queue Anti-Pattern](https://mikehadlow.blogspot.com/2012/04/database-as-queue-anti-pattern.html) - Mike Hadlow argues against using a relational database as a queue.
 - [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain) - Brandur Leach on staging jobs in a table inside the transaction and enqueuing them from a separate process after commit.
 
