@@ -209,6 +209,7 @@
 - [Postgres LISTEN/NOTIFY does not scale](https://www.recall.ai/blog/postgres-listen-notify-does-not-scale) - Recall.ai on how `NOTIFY` took a global lock at commit that serialized all commits. The article's 2026 update reports the bottleneck fixed in PostgreSQL core.
 - [The Database As Queue Anti-Pattern](https://mikehadlow.blogspot.com/2012/04/database-as-queue-anti-pattern.html) - Mike Hadlow argues against using a relational database as a queue.
 - [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain) - Brandur Leach on staging jobs in a table inside the transaction and enqueuing them from a separate process after commit.
+- [Waiting for 9.5 - Implement SKIP LOCKED for row-level locks](https://www.depesz.com/2014/10/10/waiting-for-9-5-implement-skip-locked-for-row-level-locks/) - Hubert Lubaczewski on the PostgreSQL 9.5 feature that lets readers skip locked rows instead of waiting for them.
 
 ### Retries, idempotency and delivery
 
@@ -233,6 +234,7 @@
 - [FOQS: Scaling a distributed priority queue](https://engineering.fb.com/2021/02/22/production-engineering/foqs-scaling-a-distributed-priority-queue/) - Meta's multitenant distributed priority queue built on sharded MySQL.
 - [High Availability by Offloading Work Into the Background](https://shopify.engineering/high-availability-background-jobs) - Kerstin Puschke on how Shopify uses background jobs to keep response times short and the system available.
 - [How we designed Dropbox ATF: an async task framework](https://dropbox.tech/infrastructure/asynchronous-task-scheduling-at-dropbox) - Arun Sai Krishnan on Dropbox's callback-based task framework with at-least-once execution.
+- [Introducing Resque](https://github.blog/news-insights/the-library/introducing-resque/) - Chris Wanstrath on why GitHub built Resque, its Redis-backed job library.
 - [Scaling Slack's Job Queue](https://slack.engineering/scaling-slacks-job-queue/) - How Slack put Kafka in front of its Redis job queue to stop job loss under memory pressure.
 
 ### Books
