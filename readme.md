@@ -127,6 +127,8 @@ Job APIs built into web frameworks, and modules that connect a framework to a qu
 
 ## Workflow and durable execution
 
+- [AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html) - Managed AWS service that runs workflows as state machines to orchestrate microservices and distributed applications.
+- [Azure Durable Functions](https://learn.microsoft.com/en-us/azure/durable-task/durable-functions/durable-functions-overview) - Azure Functions extension for writing stateful workflows in code as orchestrator, activity and entity functions.
 - [Cadence](https://github.com/cadence-workflow/cadence) - Orchestration engine for long-running workflows, backed by Cassandra, MySQL or PostgreSQL.
 - [Conductor](https://github.com/conductor-oss/conductor) - Durable execution platform for microservices and workflow graphs that originated at Netflix.
 - [DBOS Transact](https://github.com/dbos-inc/dbos-transact-py) - Python library that adds durable workflows and queues to a program, built on PostgreSQL.
