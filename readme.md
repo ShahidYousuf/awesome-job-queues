@@ -101,6 +101,8 @@
 
 ## Framework integrations
 
+Job APIs built into web frameworks, and official modules that connect a framework to a queue.
+
 ### Django
 
 - [Django Tasks framework](https://docs.djangoproject.com/en/stable/topics/tasks/) - Task API built into Django since 6.0 that defines tasks and backends but provides no worker, so background execution needs a third-party backend.
