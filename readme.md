@@ -89,7 +89,7 @@
 ### PHP
 
 - [Action Scheduler](https://github.com/woocommerce/action-scheduler) - Job queue for WordPress plugins and themes that runs scheduled action hooks in the background without server access.
-- [Laravel Queues](https://laravel.com/docs/queues) - Queue API built into Laravel with backends such as Amazon SQS, Redis and relational databases.
+- [Laravel Queues](https://laravel.com/framework/docs/queues) - Queue API built into Laravel with backends such as Amazon SQS, Redis and relational databases.
 - [Symfony Messenger](https://symfony.com/doc/current/messenger.html) - Symfony component that dispatches messages to handlers through transports such as AMQP, Doctrine, Redis, Amazon SQS and Beanstalkd.
 
 ### Rust
