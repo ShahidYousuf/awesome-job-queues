@@ -101,7 +101,7 @@
 
 ## Framework integrations
 
-Job APIs built into web frameworks, and official modules that connect a framework to a queue.
+Job APIs built into web frameworks, and modules that connect a framework to a queue.
 
 ### Django
 
