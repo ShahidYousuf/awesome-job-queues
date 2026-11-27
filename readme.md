@@ -19,6 +19,7 @@
 - [Job servers](#job-servers)
 - [Workflow and durable execution](#workflow-and-durable-execution)
 - [Database-backed queues](#database-backed-queues)
+- [Brokers](#brokers)
 
 ## Libraries
 
@@ -117,6 +118,13 @@
 - [PgQ](https://github.com/pgq/pgq) - PostgreSQL extension that provides a generic queue with an API of SQL functions. Uses the pgqd daemon for ticks and maintenance.
 - [PgQue](https://github.com/NikolayS/PgQue) - PgQ rebuilt in pure PL/pgSQL so it runs on managed PostgreSQL without a C extension or daemon. Uses an event log with per-consumer cursors.
 - [pg_later](https://github.com/ChuckHend/pg_later) - PostgreSQL extension that runs SQL queries asynchronously and stores the results for later retrieval. Built on PGMQ.
+
+## Brokers
+
+- [NATS](https://github.com/nats-io/nats-server) - Messaging system whose JetStream persistence layer supports work-queue streams that delete each message once a consumer has read it.
+- [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) - Multi-protocol messaging and streaming broker that supports AMQP 1.0, AMQP 0-9-1, MQTT and STOMP.
+- [Redis](https://github.com/redis/redis) - In-memory data structure server with lists and streams that many job queue libraries use for storage.
+- [Valkey](https://github.com/valkey-io/valkey) - Key-value data structure server forked from Redis before Redis moved to source-available licenses.
 
 ## Contributing
 
