@@ -118,7 +118,7 @@
 - [Conductor](https://github.com/conductor-oss/conductor) - Durable execution platform for microservices and workflow graphs that originated at Netflix.
 - [DBOS Transact](https://github.com/dbos-inc/dbos-transact-py) - Python library that adds durable workflows and queues to a program, built on PostgreSQL.
 - [Hatchet](https://github.com/hatchet-dev/hatchet) - Orchestration engine for background tasks and durable workflows that uses PostgreSQL for durability, with Python, TypeScript, Go and Ruby SDKs.
-- [Inngest](https://github.com/inngest/inngest) - Durable step functions that replace separate queues, state and scheduling, with SDKs in several languages. Source-available under SSPL.
+- [Inngest](https://github.com/inngest/inngest) - Durable step functions that replace separate queues, state and scheduling, with SDKs in several languages. The server is source-available under SSPL and the SDKs are Apache 2.0.
 - [Restate](https://github.com/restatedev/restate) - Platform for building resilient applications from durable building blocks such as workflows as code. Source-available under BSL.
 - [Temporal](https://github.com/temporalio/temporal) - Durable execution platform whose server runs workflows written as code, handles intermittent failures and retries failed operations.
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) - Platform for long-running TypeScript tasks and workflows with retries and queues.
