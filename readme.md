@@ -6,6 +6,7 @@
 
 - [Libraries](#libraries)
 	- [Python](#python)
+	- [Ruby](#ruby)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
 - [Database-backed queues](#database-backed-queues)
@@ -23,6 +24,17 @@
 - [RQ](https://github.com/rq/rq) - Job queue backed by Redis or Valkey that runs jobs in the background with workers.
 - [SAQ](https://github.com/tobymao/saq) - Job queue built on asyncio with Redis or PostgreSQL backends and an optional monitoring UI.
 - [Taskiq](https://github.com/taskiq-python/taskiq) - Asynchronous distributed task queue that runs both sync and async functions and integrates with FastAPI and AIOHTTP.
+
+### Ruby
+
+- [Delayed::Job](https://github.com/collectiveidea/delayed_job) - Database-backed priority queue for background jobs, extracted from Shopify.
+- [GoodJob](https://github.com/bensheldon/good_job) - Multithreaded, PostgreSQL-based Active Job backend for Rails that uses advisory locks and `LISTEN/NOTIFY`, with a web dashboard.
+- [Que](https://github.com/que-rb/que) - Job queue for Ruby and PostgreSQL that locks jobs with advisory locks and can enqueue jobs in the same transaction as other data.
+- [Resque](https://github.com/resque/resque) - Redis-backed library for creating background jobs, placing them on multiple queues and processing them later.
+- [Shoryuken](https://github.com/ruby-shoryuken/shoryuken) - Thread-based Amazon SQS message processor with Active Job support.
+- [Sidekiq](https://github.com/sidekiq/sidekiq) - Background job processor that runs many jobs concurrently in threads, backed by Redis, Valkey or Dragonfly.
+- [Solid Queue](https://github.com/rails/solid_queue) - Database-backed Active Job backend for MySQL, PostgreSQL and SQLite that uses `FOR UPDATE SKIP LOCKED` where available.
+- [Sucker Punch](https://github.com/brandonhilkert/sucker_punch) - Asynchronous job library that runs its queues inside the application process using concurrent-ruby.
 
 ## Framework integrations
 
