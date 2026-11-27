@@ -21,6 +21,7 @@
 - [Database-backed queues](#database-backed-queues)
 - [Brokers](#brokers)
 - [Managed services](#managed-services)
+- [Transactional outbox](#transactional-outbox)
 
 ## Libraries
 
@@ -136,6 +137,13 @@
 - [Google Cloud Tasks](https://cloud.google.com/tasks/docs/dual-overview) - Managed service that dispatches and delivers large numbers of distributed tasks, including as HTTP requests to a target.
 - [Supabase Queues](https://supabase.com/docs/guides/queues) - PostgreSQL-native message queues with guaranteed delivery on Supabase, built on PGMQ.
 - [Upstash QStash](https://upstash.com/docs/qstash/overall/getstarted) - Serverless messaging and scheduling service that delivers messages to public HTTP endpoints.
+
+## Transactional outbox
+
+- [CAP](https://github.com/dotnetcore/CAP) - .NET event bus that stores outgoing events in a local message table in the application database before publishing them.
+- [Debezium Outbox Event Router](https://debezium.io/documentation/reference/stable/transformations/outbox-event-router.html) - Debezium transformation that captures changes in an outbox table and routes them as events to Kafka topics.
+- [transaction-outbox](https://github.com/gruelbox/transaction-outbox) - Java implementation of the transactional outbox pattern that works with several database platforms.
+- [Watermill Forwarder](https://watermill.io/advanced/forwarder/) - Component of the Go library Watermill that implements the outbox pattern by forwarding messages stored in a database to a message broker.
 
 ## Contributing
 
