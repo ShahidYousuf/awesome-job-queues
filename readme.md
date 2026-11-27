@@ -9,6 +9,7 @@
 	- [Ruby](#ruby)
 	- [JavaScript and TypeScript](#javascript-and-typescript)
 	- [Go](#go)
+	- [Java and JVM](#java-and-jvm)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
 - [Database-backed queues](#database-backed-queues)
@@ -50,6 +51,12 @@
 
 - [Asynq](https://github.com/hibiken/asynq) - Redis-backed distributed task queue that processes tasks concurrently in worker goroutines.
 - [River](https://github.com/riverqueue/river) - Transactional job queue backed by PostgreSQL or SQLite, with retries, scheduling, unique jobs and a web UI, plus compatible clients for Java, JavaScript, Ruby and Rust.
+
+### Java and JVM
+
+- [db-scheduler](https://github.com/kagkarlsson/db-scheduler) - Cluster-friendly task scheduler for Java that persists tasks in a single database table.
+- [JobRunr](https://github.com/jobrunr/jobrunr) - Background job library for Java that runs fire-and-forget, delayed and recurring jobs from lambdas, stored in an SQL database or MongoDB, with a dashboard.
+- [Quartz](https://github.com/quartz-scheduler/quartz) - Job scheduling library for Java that keeps jobs in memory or in a database through JDBC.
 
 ## Framework integrations
 
