@@ -7,7 +7,7 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 - Open one pull request per entry.
 - Use the format `- [Name](link) - Description.`
 - Keep the description short and factual. Say what the project does, not how good it is.
-- Add the entry to the end of the relevant section.
+- Add the entry to the relevant section, in alphabetical order.
 - The project must be maintained: no archived, deprecated or abandoned projects.
 - Check your spelling and grammar.
 - Make sure your text editor removes trailing whitespace.
