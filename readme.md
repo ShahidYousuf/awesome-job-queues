@@ -44,7 +44,7 @@
 - [Procrastinate](https://github.com/procrastinate-org/procrastinate) - PostgreSQL-based task queue with periodic tasks, retries, task locks and Django integration, usable from sync and async code.
 - [RQ](https://github.com/rq/rq) - Job queue backed by Redis or Valkey that runs jobs in the background with workers.
 - [SAQ](https://github.com/tobymao/saq) - Job queue built on asyncio with Redis or PostgreSQL backends and an optional monitoring UI.
-- [Taskiq](https://github.com/taskiq-python/taskiq) - Asynchronous distributed task queue that runs both sync and async functions and integrates with FastAPI and AIOHTTP.
+- [Taskiq](https://github.com/taskiq-python/taskiq) - Asynchronous distributed task queue that runs both sync and async functions and integrates with FastAPI and aiohttp.
 
 ### Ruby
 
@@ -103,7 +103,7 @@
 - [Django Tasks framework](https://docs.djangoproject.com/en/stable/topics/tasks/) - Task API built into Django since 6.0 that defines tasks and backends but provides no worker, so background execution needs a third-party backend.
 - [django-celery-beat](https://github.com/celery/django-celery-beat) - Stores Celery periodic task schedules in the database and manages them from the Django admin.
 - [django-celery-results](https://github.com/celery/django-celery-results) - Stores Celery task results with the Django ORM or cache framework.
-- [django-rq](https://github.com/rq/django-rq) - Django integration for RQ that configures queues in Django settings.
+- [Django-RQ](https://github.com/rq/django-rq) - Django integration for RQ that configures queues in Django settings.
 - [django-tasks](https://github.com/RealOrangeOne/django-tasks) - Backport of Django's built-in Tasks framework.
 - [django-tasks-db](https://github.com/RealOrangeOne/django-tasks-db) - Backend for Django's Tasks framework that stores tasks with the Django ORM and runs them with a `db_worker` command.
 
