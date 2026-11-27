@@ -220,6 +220,7 @@ Queues that run inside the database itself, as an extension or a built-in featur
 - [ElasticMQ](https://github.com/softwaremill/elasticmq) - In-memory message queue with an Amazon SQS-compatible interface that runs stand-alone or embedded.
 - [GoAws](https://github.com/Admiral-Piett/goaws) - Local clone of Amazon SQS and SNS for testing without connecting to AWS.
 - [Moto](https://github.com/getmoto/moto) - Python library that mocks AWS services, including SQS, inside tests.
+- [Pub/Sub emulator](https://docs.cloud.google.com/pubsub/docs/emulator) - Local emulation of Google Cloud Pub/Sub that runs through the Google Cloud CLI.
 
 ## Reading
 
