@@ -107,12 +107,12 @@ Job APIs built into web frameworks, and modules that connect a framework to a qu
 
 ### Django
 
-- [Django Tasks framework](https://docs.djangoproject.com/en/stable/topics/tasks/) - Task API built into Django since 6.0 that defines tasks and backends but provides no worker, so background execution needs a third-party backend.
 - [django-celery-beat](https://github.com/celery/django-celery-beat) - Stores Celery periodic task schedules in the database and manages them from the Django admin.
 - [django-celery-results](https://github.com/celery/django-celery-results) - Stores Celery task results with the Django ORM or cache framework.
 - [Django-RQ](https://github.com/rq/django-rq) - Django integration for RQ that configures queues in Django settings.
 - [django-tasks](https://github.com/RealOrangeOne/django-tasks) - Backport of Django's built-in Tasks framework.
 - [django-tasks-db](https://github.com/RealOrangeOne/django-tasks-db) - Backend for Django's Tasks framework that stores tasks with the Django ORM and runs them with a `db_worker` command.
+- [Django Tasks framework](https://docs.djangoproject.com/en/stable/topics/tasks/) - Task API built into Django since 6.0 that defines tasks and backends but provides no worker, so background execution needs a third-party backend.
 
 ### NestJS
 
