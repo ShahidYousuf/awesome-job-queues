@@ -218,7 +218,7 @@
 
 ### Books
 
-- [Designing Data-Intensive Applications](https://dataintensive.net/) - Martin Kleppmann's book on data systems, with chapters on stream processing and message brokers.
+- [Designing Data-Intensive Applications](https://dataintensive.net/) - Martin Kleppmann's book comparing tools and approaches for storing and processing data, and their trade-offs.
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) - Gregor Hohpe and Bobby Woolf's catalog of 65 messaging and integration patterns.
 
 ## Contributing
