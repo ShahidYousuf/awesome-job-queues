@@ -129,6 +129,8 @@ Job APIs built into web frameworks, and modules that connect a framework to a qu
 
 ## Workflow and durable execution
 
+Engines that persist the state of multi-step workflows so that they resume after failures.
+
 - [AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html) - Managed AWS service that runs workflows as state machines to orchestrate microservices and distributed applications.
 - [Azure Durable Functions](https://learn.microsoft.com/en-us/azure/durable-task/durable-functions/durable-functions-overview) - Azure Functions extension for writing stateful workflows in code as orchestrator, activity and entity functions.
 - [Cadence](https://github.com/cadence-workflow/cadence) - Orchestration engine for long-running workflows, backed by Cassandra, MySQL or PostgreSQL.
@@ -152,6 +154,8 @@ Queues that run inside the database itself, as an extension or a built-in featur
 - [SQL Server Service Broker](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-service-broker) - Native messaging and queuing in the SQL Server Database Engine and Azure SQL Managed Instance.
 
 ## Brokers
+
+Message brokers and data stores that job queues commonly use as their backend.
 
 - [NATS](https://github.com/nats-io/nats-server) - Messaging system whose JetStream persistence layer supports work-queue streams that delete each message once a consumer has read it.
 - [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) - Multi-protocol messaging and streaming broker that supports AMQP 1.0, AMQP 0-9-1, MQTT and STOMP.
