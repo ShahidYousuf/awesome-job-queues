@@ -30,6 +30,7 @@
 	- [Retries, idempotency and delivery](#retries-idempotency-and-delivery)
 	- [Transactional outbox pattern](#transactional-outbox-pattern)
 	- [Case studies](#case-studies)
+	- [Books](#books)
 
 ## Libraries
 
@@ -214,6 +215,11 @@
 - [High Availability by Offloading Work Into the Background](https://shopify.engineering/high-availability-background-jobs) - Kerstin Puschke on how Shopify uses background jobs to keep response times short and the system available.
 - [How we designed Dropbox ATF: an async task framework](https://dropbox.tech/infrastructure/asynchronous-task-scheduling-at-dropbox) - Arun Sai Krishnan on Dropbox's callback-based task framework with at-least-once execution.
 - [Scaling Slack's Job Queue](https://slack.engineering/scaling-slacks-job-queue/) - How Slack put Kafka in front of its Redis job queue to stop job loss under memory pressure.
+
+### Books
+
+- [Designing Data-Intensive Applications](https://dataintensive.net/) - Martin Kleppmann's book on data systems, with chapters on stream processing and message brokers.
+- [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) - Gregor Hohpe and Bobby Woolf's catalog of 65 messaging and integration patterns.
 
 ## Contributing
 
