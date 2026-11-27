@@ -8,6 +8,7 @@
 	- [Python](#python)
 	- [Ruby](#ruby)
 	- [JavaScript and TypeScript](#javascript-and-typescript)
+	- [Go](#go)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
 - [Database-backed queues](#database-backed-queues)
@@ -44,6 +45,11 @@
 - [Graphile Worker](https://github.com/graphile/worker) - Job queue for PostgreSQL running on Node.js that can also take jobs created by PostgreSQL triggers and functions.
 - [node-resque](https://github.com/actionhero/node-resque) - Redis-backed background jobs for Node.js with an API compatible with Resque.
 - [pg-boss](https://github.com/timgit/pg-boss) - Job queue for Node.js that stores jobs in PostgreSQL and claims them with `SKIP LOCKED`, with cron scheduling.
+
+### Go
+
+- [Asynq](https://github.com/hibiken/asynq) - Redis-backed distributed task queue that processes tasks concurrently in worker goroutines.
+- [River](https://github.com/riverqueue/river) - Transactional job queue backed by PostgreSQL or SQLite, with retries, scheduling, unique jobs and a web UI, plus compatible clients for Java, JavaScript, Ruby and Rust.
 
 ## Framework integrations
 
