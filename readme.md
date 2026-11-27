@@ -29,6 +29,7 @@
 	- [PostgreSQL as a queue](#postgresql-as-a-queue)
 	- [Retries, idempotency and delivery](#retries-idempotency-and-delivery)
 	- [Transactional outbox pattern](#transactional-outbox-pattern)
+	- [Case studies](#case-studies)
 
 ## Libraries
 
@@ -205,6 +206,14 @@
 
 - [Pattern: Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html) - Chris Richardson's description of the pattern, in which a service writes outgoing messages to an outbox table in the same transaction as its data.
 - [Reliable Microservices Data Exchange With the Outbox Pattern](https://debezium.io/blog/2019/02/19/reliable-microservices-data-exchange-with-the-outbox-pattern/) - Gunnar Morling implements the outbox pattern with Debezium change data capture.
+
+### Case studies
+
+- [Executing Cron Scripts Reliably At Scale](https://slack.engineering/executing-cron-scripts-reliably-at-scale/) - Slack on running its cron scripts reliably at scale on its Kubernetes platform.
+- [FOQS: Scaling a distributed priority queue](https://engineering.fb.com/2021/02/22/production-engineering/foqs-scaling-a-distributed-priority-queue/) - Meta's multitenant distributed priority queue built on sharded MySQL.
+- [High Availability by Offloading Work Into the Background](https://shopify.engineering/high-availability-background-jobs) - Kerstin Puschke on how Shopify uses background jobs to keep response times short and the system available.
+- [How we designed Dropbox ATF: an async task framework](https://dropbox.tech/infrastructure/asynchronous-task-scheduling-at-dropbox) - Arun Sai Krishnan on Dropbox's callback-based task framework with at-least-once execution.
+- [Scaling Slack's Job Queue](https://slack.engineering/scaling-slacks-job-queue/) - How Slack put Kafka in front of its Redis job queue to stop job loss under memory pressure.
 
 ## Contributing
 
