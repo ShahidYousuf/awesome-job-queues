@@ -213,6 +213,8 @@
 ### Retries, idempotency and delivery
 
 - [Avoiding insurmountable queue backlogs](https://builder.aws.com/content/3EuRcgkTP1MI0c7zM8W6HL3WIqA/avoiding-insurmountable-queue-backlogs) - How Amazon keeps queue backlogs recoverable with backpressure, prioritization and constant work.
+- [Designing robust and predictable APIs with idempotency](https://stripe.com/blog/idempotency) - Brandur Leach on how Stripe uses idempotency keys to make retries safe over unreliable networks.
+- [Exactly-Once Delivery May Not Be What You Want](https://brooker.co.za/blog/2014/11/15/exactly-once/) - Marc Brooker on why exactly-once delivery is hard to get and usually not what an application needs.
 - [Exponential Backoff and Jitter](https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/) - Marc Brooker on adding random jitter to exponential backoff so that retrying clients spread out.
 - [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys) - Brandur Leach implements idempotency keys with atomic phases in PostgreSQL.
 - [Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) - Malcolm Featonby on how AWS uses idempotent API operations so that clients can retry safely.
