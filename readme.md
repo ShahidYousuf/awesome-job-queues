@@ -166,7 +166,7 @@
 - [Bree](https://github.com/breejs/bree) - Job scheduler for Node.js that runs jobs in worker threads on cron, date or human-readable schedules.
 - [Dkron](https://github.com/dkron-io/dkron) - Distributed, fault-tolerant cron service with a web UI.
 - [gocron](https://github.com/go-co-op/gocron) - Job scheduling package that runs Go functions at set intervals.
-- [Google Cloud Scheduler](https://cloud.google.com/scheduler/docs/overview) - Managed service that runs scheduled units of work at defined times or regular intervals.
+- [Google Cloud Scheduler](https://docs.cloud.google.com/scheduler/docs/overview) - Managed service that runs scheduled units of work at defined times or regular intervals.
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron job monitoring service that sends alerts when a scheduled task's ping does not arrive on time. Self-hosted or hosted at healthchecks.io.
 - [Kubernetes CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) - Kubernetes resource that creates Jobs on a repeating schedule.
 - [Ofelia](https://github.com/mcuadros/ofelia) - Job scheduler for Docker environments that replaces cron.
