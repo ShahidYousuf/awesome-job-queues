@@ -25,6 +25,7 @@
 - [Transactional outbox](#transactional-outbox)
 - [Scheduling and cron monitoring](#scheduling-and-cron-monitoring)
 - [Dashboards and monitoring](#dashboards-and-monitoring)
+- [Autoscaling](#autoscaling)
 - [Local development and testing](#local-development-and-testing)
 - [Reading](#reading)
 	- [PostgreSQL as a queue](#postgresql-as-a-queue)
@@ -184,6 +185,10 @@
 - [Oban Web](https://github.com/oban-bg/oban_web) - Live dashboard for Oban.
 - [River UI](https://github.com/riverqueue/riverui) - Web interface for viewing and managing River jobs.
 - [rq-dashboard](https://github.com/Parallels/rq-dashboard) - Flask-based web front end for monitoring RQ queues.
+
+## Autoscaling
+
+- [KEDA](https://github.com/kedacore/keda) - Event-driven autoscaler for Kubernetes that can scale workers to and from zero based on sources such as Amazon SQS, RabbitMQ, Redis lists, PostgreSQL, NATS JetStream and Azure Service Bus.
 
 ## Local development and testing
 
