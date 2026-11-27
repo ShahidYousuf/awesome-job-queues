@@ -196,6 +196,7 @@ Queues that run inside the database itself, as an extension or a built-in featur
 ### Cron monitoring
 
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron job monitoring service that sends alerts when a scheduled task's ping does not arrive on time. Self-hosted or hosted at healthchecks.io.
+- [Sentry Crons](https://docs.sentry.io/product/monitors-and-alerts/monitors/crons/) - Sentry feature that monitors recurring jobs.
 
 ## Dashboards and monitoring
 
