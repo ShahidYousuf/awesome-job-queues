@@ -36,7 +36,7 @@
 
 ### Python
 
-- [Celery](https://github.com/celery/celery) - Distributed task queue that supports RabbitMQ, Redis, Amazon SQS and Google Pub/Sub as message transports.
+- [Celery](https://github.com/celery/celery) - Distributed task queue with stable RabbitMQ, Redis and Amazon SQS transports.
 - [Django Q2](https://github.com/django-q2/django-q2) - Multiprocessing distributed task queue for Django, a maintained fork of Django Q.
 - [Dramatiq](https://github.com/Bogdanp/dramatiq) - Distributed task processing library with RabbitMQ and Redis brokers.
 - [Huey](https://github.com/coleifer/huey) - Task queue that can store tasks in Redis, PostgreSQL, SQLite, the file system or memory.
@@ -60,7 +60,7 @@
 ### JavaScript and TypeScript
 
 - [Agenda](https://github.com/agenda/agenda) - Job scheduling library for Node.js that stores jobs in MongoDB by default through a pluggable backend.
-- [BullMQ](https://github.com/taskforcesh/bullmq) - Redis-based distributed queue for Node.js with an optional PostgreSQL backend and clients for Python, Elixir, .NET, Rust and PHP.
+- [BullMQ](https://github.com/taskforcesh/bullmq) - Redis-based distributed queue for Node.js with an optional PostgreSQL backend and official ports for Python, Go, Elixir, .NET, Rust and PHP.
 - [Graphile Worker](https://github.com/graphile/worker) - Job queue for PostgreSQL running on Node.js that can also take jobs created by PostgreSQL triggers and functions.
 - [node-resque](https://github.com/actionhero/node-resque) - Redis-backed background jobs for Node.js with an API compatible with Resque.
 - [pg-boss](https://github.com/timgit/pg-boss) - Job queue for Node.js that stores jobs in PostgreSQL and claims them with `SKIP LOCKED`, with cron scheduling.
@@ -100,7 +100,7 @@
 
 ### Django
 
-- [Django Tasks framework](https://docs.djangoproject.com/en/stable/topics/tasks/) - Task API built into Django 6.0 that defines tasks and backends but provides no worker, so background execution needs a third-party backend.
+- [Django Tasks framework](https://docs.djangoproject.com/en/stable/topics/tasks/) - Task API built into Django since 6.0 that defines tasks and backends but provides no worker, so background execution needs a third-party backend.
 - [django-celery-beat](https://github.com/celery/django-celery-beat) - Stores Celery periodic task schedules in the database and manages them from the Django admin.
 - [django-celery-results](https://github.com/celery/django-celery-results) - Stores Celery task results with the Django ORM or cache framework.
 - [django-rq](https://github.com/rq/django-rq) - Django integration for RQ that configures queues in Django settings.
