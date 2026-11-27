@@ -24,6 +24,7 @@
 - [Transactional outbox](#transactional-outbox)
 - [Scheduling and cron monitoring](#scheduling-and-cron-monitoring)
 - [Dashboards and monitoring](#dashboards-and-monitoring)
+- [Local development and testing](#local-development-and-testing)
 
 ## Libraries
 
@@ -166,6 +167,13 @@
 - [Oban Web](https://github.com/oban-bg/oban_web) - Live dashboard for Oban.
 - [River UI](https://github.com/riverqueue/riverui) - Web interface for viewing and managing River jobs.
 - [rq-dashboard](https://github.com/Parallels/rq-dashboard) - Flask-based web front end for monitoring RQ queues.
+
+## Local development and testing
+
+- [Azurite](https://github.com/Azure/Azurite) - Local emulator for Azure Storage, including Queue Storage.
+- [Cloud Tasks emulator](https://github.com/aertje/cloud-tasks-emulator) - Emulator for Google Cloud Tasks for local development and testing.
+- [ElasticMQ](https://github.com/softwaremill/elasticmq) - In-memory message queue with an Amazon SQS-compatible interface that runs stand-alone or embedded.
+- [GoAws](https://github.com/Admiral-Piett/goaws) - Local clone of Amazon SQS and SNS for testing without connecting to AWS.
 
 ## Contributing
 
