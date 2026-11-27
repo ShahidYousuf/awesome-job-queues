@@ -16,6 +16,7 @@
 	- [Rust](#rust)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
+	- [Rails](#rails)
 - [Job servers](#job-servers)
 - [Workflow and durable execution](#workflow-and-durable-execution)
 - [Database-backed queues](#database-backed-queues)
@@ -106,6 +107,10 @@
 - [Django-RQ](https://github.com/rq/django-rq) - Django integration for RQ that configures queues in Django settings.
 - [django-tasks](https://github.com/RealOrangeOne/django-tasks) - Backport of Django's built-in Tasks framework.
 - [django-tasks-db](https://github.com/RealOrangeOne/django-tasks-db) - Backend for Django's Tasks framework that stores tasks with the Django ORM and runs them with a `db_worker` command.
+
+### Rails
+
+- [Active Job](https://guides.rubyonrails.org/active_job_basics.html) - Job API built into Rails that runs jobs on pluggable queuing backends, with Solid Queue as the default backend since Rails 8.
 
 ## Job servers
 
