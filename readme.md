@@ -25,6 +25,8 @@
 - [Scheduling and cron monitoring](#scheduling-and-cron-monitoring)
 - [Dashboards and monitoring](#dashboards-and-monitoring)
 - [Local development and testing](#local-development-and-testing)
+- [Reading](#reading)
+	- [PostgreSQL as a queue](#postgresql-as-a-queue)
 
 ## Libraries
 
@@ -174,6 +176,18 @@
 - [Cloud Tasks emulator](https://github.com/aertje/cloud-tasks-emulator) - Emulator for Google Cloud Tasks for local development and testing.
 - [ElasticMQ](https://github.com/softwaremill/elasticmq) - In-memory message queue with an Amazon SQS-compatible interface that runs stand-alone or embedded.
 - [GoAws](https://github.com/Admiral-Piett/goaws) - Local clone of Amazon SQS and SNS for testing without connecting to AWS.
+
+## Reading
+
+### PostgreSQL as a queue
+
+- [Devious SQL: Message Queuing Using Native PostgreSQL](https://www.crunchydata.com/blog/message-queuing-using-native-postgresql) - David Christensen builds a queue on `FOR UPDATE SKIP LOCKED`.
+- [Introducing Solid Queue](https://dev.37signals.com/introducing-solid-queue/) - Rosa Gutiérrez on the database-backed Active Job backend that 37signals runs in HEY.
+- [Kafka is fast -- I'll use Postgres](https://topicpartition.io/blog/postgres-pubsub-queue-benchmarks) - Stanislav Kozlovski benchmarks PostgreSQL as a pub-sub system and as a queue.
+- [Postgres Job Queues & Failure By MVCC](https://brandur.org/postgres-queues) - Brandur Leach shows how a long-lived transaction leaves dead tuples that slow down job locking.
+- [Postgres LISTEN/NOTIFY does not scale](https://recall.ai/blog/postgres-listen-notify-does-not-scale) - Recall.ai on how `NOTIFY` takes a global lock at commit and serializes all commits.
+- [The Database As Queue Anti-Pattern](https://mikehadlow.blogspot.com/2012/04/database-as-queue-anti-pattern.html) - Mike Hadlow argues against using a relational database as a queue.
+- [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain) - Brandur Leach on staging jobs in a table inside the transaction and enqueuing them from a separate process after commit.
 
 ## Contributing
 
