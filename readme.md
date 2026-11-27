@@ -145,10 +145,12 @@
 
 ## Managed services
 
+- [Amazon MQ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html) - Managed message broker service from AWS for Apache ActiveMQ Classic and RabbitMQ.
 - [Amazon SQS](https://aws.amazon.com/sqs/) - Managed message queue service from AWS with standard and FIFO queues.
 - [Azure Queue Storage](https://learn.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction) - Azure service for storing large numbers of messages in queues inside a storage account.
 - [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) - Managed message broker on Azure with queues and publish-subscribe topics.
 - [Cloudflare Queues](https://developers.cloudflare.com/queues/) - Message queues with guaranteed delivery, integrated with Cloudflare Workers.
+- [Google Cloud Pub/Sub](https://docs.cloud.google.com/pubsub/docs/overview) - Asynchronous messaging service that decouples services that produce messages from services that process them.
 - [Google Cloud Tasks](https://docs.cloud.google.com/tasks/docs/dual-overview) - Managed service that dispatches and delivers large numbers of distributed tasks, including as HTTP requests to a target.
 - [Supabase Queues](https://supabase.com/docs/guides/queues) - PostgreSQL-native message queues with guaranteed delivery on Supabase, built on PGMQ.
 - [Upstash QStash](https://upstash.com/docs/qstash/overall/getstarted) - Serverless messaging and scheduling service that delivers messages to public HTTP endpoints.
