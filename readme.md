@@ -11,6 +11,7 @@
 	- [Go](#go)
 	- [Java and JVM](#java-and-jvm)
 	- [.NET](#net)
+	- [Elixir](#elixir)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
 - [Database-backed queues](#database-backed-queues)
@@ -63,6 +64,11 @@
 
 - [Hangfire](https://github.com/HangfireIO/Hangfire) - Background job library for .NET that runs fire-and-forget, delayed and recurring jobs, with SQL Server storage and a built-in dashboard.
 - [Quartz.NET](https://github.com/quartznet/quartznet) - Job scheduling library for .NET that keeps jobs in memory or in a database through ADO.NET.
+
+### Elixir
+
+- [Exq](https://github.com/akira/exq) - Redis-backed job processing library that uses a job format compatible with Resque and Sidekiq.
+- [Oban](https://github.com/oban-bg/oban) - Job processing library backed by PostgreSQL, MySQL or SQLite.
 
 ## Framework integrations
 
