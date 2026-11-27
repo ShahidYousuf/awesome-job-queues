@@ -23,6 +23,7 @@
 - [Managed services](#managed-services)
 - [Transactional outbox](#transactional-outbox)
 - [Scheduling and cron monitoring](#scheduling-and-cron-monitoring)
+- [Dashboards and monitoring](#dashboards-and-monitoring)
 
 ## Libraries
 
@@ -154,6 +155,17 @@
 - [Ofelia](https://github.com/mcuadros/ofelia) - Job scheduler for Docker environments that replaces cron.
 - [pg_cron](https://github.com/citusdata/pg_cron) - Cron-based job scheduler that runs inside PostgreSQL as an extension.
 - [Supercronic](https://github.com/aptible/supercronic) - Crontab-compatible job runner designed to run in containers.
+
+## Dashboards and monitoring
+
+- [Bull Board](https://github.com/felixmosh/bull-board) - Dashboard for Bull and BullMQ queues that plugs into an existing Node.js server.
+- [celery-exporter](https://github.com/danihodovic/celery-exporter) - Prometheus exporter for Celery metrics.
+- [Flower](https://github.com/mher/flower) - Real-time monitor and web admin for Celery.
+- [Laravel Horizon](https://github.com/laravel/horizon) - Dashboard and code-driven configuration for Laravel's Redis queues, with metrics such as throughput, runtime and failures.
+- [Mission Control Jobs](https://github.com/rails/mission_control-jobs) - Rails dashboard for operating Active Job adapters, currently Resque and Solid Queue.
+- [Oban Web](https://github.com/oban-bg/oban_web) - Live dashboard for Oban.
+- [River UI](https://github.com/riverqueue/riverui) - Web interface for viewing and managing River jobs.
+- [rq-dashboard](https://github.com/Parallels/rq-dashboard) - Flask-based web front end for monitoring RQ queues.
 
 ## Contributing
 
