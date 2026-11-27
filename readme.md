@@ -27,6 +27,7 @@
 - [Local development and testing](#local-development-and-testing)
 - [Reading](#reading)
 	- [PostgreSQL as a queue](#postgresql-as-a-queue)
+	- [Retries, idempotency and delivery](#retries-idempotency-and-delivery)
 
 ## Libraries
 
@@ -188,6 +189,16 @@
 - [Postgres LISTEN/NOTIFY does not scale](https://recall.ai/blog/postgres-listen-notify-does-not-scale) - Recall.ai on how `NOTIFY` takes a global lock at commit and serializes all commits.
 - [The Database As Queue Anti-Pattern](https://mikehadlow.blogspot.com/2012/04/database-as-queue-anti-pattern.html) - Mike Hadlow argues against using a relational database as a queue.
 - [Transactionally Staged Job Drains in Postgres](https://brandur.org/job-drain) - Brandur Leach on staging jobs in a table inside the transaction and enqueuing them from a separate process after commit.
+
+### Retries, idempotency and delivery
+
+- [Avoiding insurmountable queue backlogs](https://builder.aws.com/content/3EuRcgkTP1MI0c7zM8W6HL3WIqA/avoiding-insurmountable-queue-backlogs) - How Amazon keeps queue backlogs recoverable with backpressure, prioritization and constant work.
+- [Exponential Backoff and Jitter](https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/) - Marc Brooker on adding random jitter to exponential backoff so that retrying clients spread out.
+- [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys) - Brandur Leach implements idempotency keys with atomic phases in PostgreSQL.
+- [Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) - Malcolm Featonby on how AWS uses idempotent API operations so that clients can retry safely.
+- [Queues Don't Fix Overload](https://ferd.ca/queues-don-t-fix-overload.html) - Fred Hebert on why a queue does not fix an overloaded system and why back-pressure at the real bottleneck does.
+- [Timeouts, retries, and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter) - How Amazon uses timeouts, retries and backoff with jitter to handle transient failures without overloading services.
+- [You Cannot Have Exactly-Once Delivery](https://bravenewgeek.com/you-cannot-have-exactly-once-delivery/) - Tyler Treat on why exactly-once message delivery is not possible in a distributed system.
 
 ## Contributing
 
