@@ -22,6 +22,7 @@
 - [Brokers](#brokers)
 - [Managed services](#managed-services)
 - [Transactional outbox](#transactional-outbox)
+- [Scheduling and cron monitoring](#scheduling-and-cron-monitoring)
 
 ## Libraries
 
@@ -144,6 +145,15 @@
 - [Debezium Outbox Event Router](https://debezium.io/documentation/reference/stable/transformations/outbox-event-router.html) - Debezium transformation that captures changes in an outbox table and routes them as events to Kafka topics.
 - [transaction-outbox](https://github.com/gruelbox/transaction-outbox) - Java implementation of the transactional outbox pattern that works with several database platforms.
 - [Watermill Forwarder](https://watermill.io/advanced/forwarder/) - Component of the Go library Watermill that implements the outbox pattern by forwarding messages stored in a database to a message broker.
+
+## Scheduling and cron monitoring
+
+- [Bree](https://github.com/breejs/bree) - Job scheduler for Node.js that runs jobs in worker threads on cron, date or human-readable schedules.
+- [Dkron](https://github.com/dkron-io/dkron) - Distributed, fault-tolerant cron service with a web UI.
+- [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron job monitoring service that sends alerts when a scheduled task's ping does not arrive on time. Self-hosted or hosted at healthchecks.io.
+- [Ofelia](https://github.com/mcuadros/ofelia) - Job scheduler for Docker environments that replaces cron.
+- [pg_cron](https://github.com/citusdata/pg_cron) - Cron-based job scheduler that runs inside PostgreSQL as an extension.
+- [Supercronic](https://github.com/aptible/supercronic) - Crontab-compatible job runner designed to run in containers.
 
 ## Contributing
 
