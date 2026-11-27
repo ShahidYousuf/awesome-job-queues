@@ -10,6 +10,7 @@
 	- [JavaScript and TypeScript](#javascript-and-typescript)
 	- [Go](#go)
 	- [Java and JVM](#java-and-jvm)
+	- [.NET](#net)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
 - [Database-backed queues](#database-backed-queues)
@@ -57,6 +58,11 @@
 - [db-scheduler](https://github.com/kagkarlsson/db-scheduler) - Cluster-friendly task scheduler for Java that persists tasks in a single database table.
 - [JobRunr](https://github.com/jobrunr/jobrunr) - Background job library for Java that runs fire-and-forget, delayed and recurring jobs from lambdas, stored in an SQL database or MongoDB, with a dashboard.
 - [Quartz](https://github.com/quartz-scheduler/quartz) - Job scheduling library for Java that keeps jobs in memory or in a database through JDBC.
+
+### .NET
+
+- [Hangfire](https://github.com/HangfireIO/Hangfire) - Background job library for .NET that runs fire-and-forget, delayed and recurring jobs, with SQL Server storage and a built-in dashboard.
+- [Quartz.NET](https://github.com/quartznet/quartznet) - Job scheduling library for .NET that keeps jobs in memory or in a database through ADO.NET.
 
 ## Framework integrations
 
