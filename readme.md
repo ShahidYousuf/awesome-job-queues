@@ -138,6 +138,8 @@ Job APIs built into web frameworks, and modules that connect a framework to a qu
 
 ## Database-backed queues
 
+Queues that run inside the database itself, as an extension or a built-in feature. Libraries that store jobs in a database are listed under their language.
+
 - [Oracle Transactional Event Queues](https://docs.oracle.com/en/database/oracle/oracle-database/26/adque/aq-introduction.html) - Message queuing built into Oracle Database, alongside the older Advanced Queuing.
 - [pg_later](https://github.com/ChuckHend/pg_later) - PostgreSQL extension that runs SQL queries asynchronously and stores the results for later retrieval. Built on PGMQ.
 - [PGMQ](https://github.com/pgmq/pgmq) - PostgreSQL extension that provides SQS-style message queues with visibility timeouts, using only SQL objects and no background worker.
