@@ -161,9 +161,12 @@
 
 ## Scheduling and cron monitoring
 
+- [Amazon EventBridge Scheduler](https://docs.aws.amazon.com/scheduler/latest/UserGuide/what-is-scheduler.html) - Serverless AWS scheduler that creates, runs and manages scheduled tasks from one managed service.
 - [Bree](https://github.com/breejs/bree) - Job scheduler for Node.js that runs jobs in worker threads on cron, date or human-readable schedules.
 - [Dkron](https://github.com/dkron-io/dkron) - Distributed, fault-tolerant cron service with a web UI.
+- [Google Cloud Scheduler](https://cloud.google.com/scheduler/docs/overview) - Managed service that runs scheduled units of work at defined times or regular intervals.
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron job monitoring service that sends alerts when a scheduled task's ping does not arrive on time. Self-hosted or hosted at healthchecks.io.
+- [Kubernetes CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) - Kubernetes resource that creates Jobs on a repeating schedule.
 - [Ofelia](https://github.com/mcuadros/ofelia) - Job scheduler for Docker environments that replaces cron.
 - [pg_cron](https://github.com/citusdata/pg_cron) - Cron-based job scheduler that runs inside PostgreSQL as an extension.
 - [Supercronic](https://github.com/aptible/supercronic) - Crontab-compatible job runner designed to run in containers.
