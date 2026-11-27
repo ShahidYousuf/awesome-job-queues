@@ -28,6 +28,7 @@
 - [Reading](#reading)
 	- [PostgreSQL as a queue](#postgresql-as-a-queue)
 	- [Retries, idempotency and delivery](#retries-idempotency-and-delivery)
+	- [Transactional outbox pattern](#transactional-outbox-pattern)
 
 ## Libraries
 
@@ -199,6 +200,11 @@
 - [Queues Don't Fix Overload](https://ferd.ca/queues-don-t-fix-overload.html) - Fred Hebert on why a queue does not fix an overloaded system and why back-pressure at the real bottleneck does.
 - [Timeouts, retries, and backoff with jitter](https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter) - How Amazon uses timeouts, retries and backoff with jitter to handle transient failures without overloading services.
 - [You Cannot Have Exactly-Once Delivery](https://bravenewgeek.com/you-cannot-have-exactly-once-delivery/) - Tyler Treat on why exactly-once message delivery is not possible in a distributed system.
+
+### Transactional outbox pattern
+
+- [Pattern: Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html) - Chris Richardson's description of the pattern, in which a service writes outgoing messages to an outbox table in the same transaction as its data.
+- [Reliable Microservices Data Exchange With the Outbox Pattern](https://debezium.io/blog/2019/02/19/reliable-microservices-data-exchange-with-the-outbox-pattern/) - Gunnar Morling implements the outbox pattern with Debezium change data capture.
 
 ## Contributing
 
