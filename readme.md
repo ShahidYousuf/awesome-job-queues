@@ -16,6 +16,7 @@
 	- [Rust](#rust)
 - [Framework integrations](#framework-integrations)
 	- [Django](#django)
+	- [NestJS](#nestjs)
 	- [Rails](#rails)
 - [Job servers](#job-servers)
 - [Workflow and durable execution](#workflow-and-durable-execution)
@@ -108,6 +109,10 @@
 - [Django-RQ](https://github.com/rq/django-rq) - Django integration for RQ that configures queues in Django settings.
 - [django-tasks](https://github.com/RealOrangeOne/django-tasks) - Backport of Django's built-in Tasks framework.
 - [django-tasks-db](https://github.com/RealOrangeOne/django-tasks-db) - Backend for Django's Tasks framework that stores tasks with the Django ORM and runs them with a `db_worker` command.
+
+### NestJS
+
+- [@nestjs/bullmq](https://github.com/nestjs/bull) - Official NestJS module for BullMQ that runs job processors as Nest providers, with flows, retries, delays and repeatable jobs.
 
 ### Rails
 
